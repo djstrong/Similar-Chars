@@ -6,8 +6,9 @@ Looks for similar chars in specified font. Results can be used to find plagiaris
 Run:
 =====
 
-```time python similar_chars.py > results.html
-
+```bash
+time python similar_chars.py > results.html
 real    11m50.032s
 user    11m48.712s
-sys     0m0.132s```
+sys     0m0.132s
+```
