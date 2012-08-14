@@ -73,6 +73,17 @@ class SimilarChars:
       if i:
 	print l, i
 
+  def print_PHP_code(self):
+    """Prints results as PHP array."""
+    print 'array('
+    for l,i in self.similar.iteritems():
+      if i:
+	print str(l)+' => array('
+	for i2 in i:
+	  print str(i2)+', '
+	print '), ';
+    print ');'
+	
   def print_similar_HTML(self):
     """Saves chars as images and prints HTML output with results."""
     print '''
@@ -176,7 +187,8 @@ class ImageComp:
 
 
 if __name__ == '__main__':
-  sc = SimilarChars("DejaVuSerif.ttf", 20)
+  sc = SimilarChars("DejaVuSerif.ttf", 20, numbers=range(65, 91)+range(97, 114)+[261, 263, 281, 322, 324, 243, 347, 378, 380]+[260,262,280,321,323,211,346,377,379])
   sc.compare()
   #sc.print_similar()
+  #sc.print_PHP_code()
   sc.print_similar_HTML()
