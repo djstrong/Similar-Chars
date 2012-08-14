@@ -1,7 +1,7 @@
 Similar Chars
 ===========================
 
-Looks for similar chars in specified font. Results can be used to find plagiarisms using this technique (changing normal chars to another looking the same).
+Looks for similar chars in specified font. Results can be used to find plagiarisms using this technique (changing normal chars to another looking the same) or to obfuscate normal text against computers.
 
 Run:
 =====
@@ -17,9 +17,7 @@ Result:
 
 Used font DejaVuSerif.ttf and size 20 (with github font characters look different):
 
-&#44;: &#8218;
-
-&#45;: &#173;, &#8208;, &#8209;
+&#115;: &#1109;
 
 &#65;: &#913;, &#1040;
 
@@ -63,7 +61,7 @@ Used font DejaVuSerif.ttf and size 20 (with github font characters look differen
 
 &#90;: &#918;
 
-&#95;: &#;, &#96;: &#8175;
+&#211;: &#7886;
 
 &#97;: &#1072;
 
@@ -87,7 +85,7 @@ Used font DejaVuSerif.ttf and size 20 (with github font characters look differen
 
 &#112;: &#1088;
 
-&#115;: &#1109;
+&#243;: &#972;, &#8057;
 
 &#118;: &#8564;
 
